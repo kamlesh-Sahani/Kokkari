@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Restaurant Website
 
-## Getting Started
+A modern restaurant website built with **React** and **Tailwind CSS** featuring four main pages: Home, About, Cuisine, and Private Dining.
 
-First, run the development server:
+## Table of Contents
+
+- [Features](#features)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Pages Overview](#pages-overview)
+  - [Home](#home)
+  - [About](#about)
+  - [Cuisine](#cuisine)
+  - [Private Dining](#private-dining)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Fully responsive design using Tailwind CSS
+- Easy navigation between pages
+- Showcases the restaurant’s unique dining experience, menu, and offerings
+- Includes information about the restaurant's history and private dining services
+
+## Demo
+
+Visit the live site: [Restaurant Website Demo](https://www.example.com)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/restaurant-website.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd restaurant-website
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To start the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The website will be accessible at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Pages Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Home
 
-## Learn More
+The **Home** page features a welcoming introduction to the restaurant, with a hero section showcasing the ambiance and style of the establishment. It also highlights the restaurant’s specialties and latest offerings.
 
-To learn more about Next.js, take a look at the following resources:
+### About
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The **About** page provides a brief history of the restaurant, its values, and the inspiration behind the dining experience. Visitors can learn more about the founders and the vision that shapes the restaurant.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Cuisine
 
-## Deploy on Vercel
+The **Cuisine** page showcases the restaurant’s menu, including the signature dishes and seasonal specials. It features mouth-watering images and descriptions of various dishes to entice visitors.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Private Dining
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The **Private Dining** page offers information on the restaurant's exclusive private dining services. Whether it's a special occasion or corporate event, the page provides details on booking and dining options available for private events.
+
+## Technologies
+
+- **React.js** – A JavaScript library for building the website's user interface
+- **Tailwind CSS** – A utility-first CSS framework for styling the site
+- **React Router** – For easy navigation between pages
+
+![Screenshot from 2024-09-07 16-57-31](https://github.com/user-attachments/assets/903f1a1f-4ab9-4b83-b7e0-37ad12acae30)
+![Screenshot from 2024-09-07 16-57-21](https://github.com/user-attachments/assets/76a26aa8-5985-43c5-9e30-9e9b0c1fc910)
+
+
+
+## License
+
+This project is licensed under the MIT License.
+
